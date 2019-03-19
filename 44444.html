@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<button id="myBtn" class="wang">43223</button>
+</body>
+<script type="text/javascript">
+		   var fff=  document.getElementById("myBtn")
+		   console.log(fff)
+   // console.log(fff)
+   fff.onclick =function (){
+   	console.log(this)
+    alert("432334")
+   }
+	</script>
+  <p>haha </p>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Vue版本个人信息系统</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+</head>
+<body>
+	<div id="app">  <ul>
+    <li v-on:click="say('hello!', $event)">点击当前行文本</li>
+    <li>li2</li>
+    <li>li3</li>
+  </ul>
+  </div>
+
+  <script>
+   new Vue({
+       el: '#app',
+       data: {
+        message: 'Hello Vue.js!'
+       },
+       methods: {
+        say: function(msg, event) {
+           //获取点击对象      
+           var el = event.currentTarget;
+           alert("当前对象的内容："+el.innerHTML);
+        }
+    }
+   })
+  </script>
+ </body>
+ </html> -->
